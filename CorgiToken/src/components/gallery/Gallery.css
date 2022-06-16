@@ -1,0 +1,77 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-add-button {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 283px;
+  margin: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.gallery-corgis-remained {
+  display: flex;
+  color: orange;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.gallery-corgi-mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 40px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
+
+.gallery-corgi-market-mask {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(233, 202, 144);
+  font-size: 40px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.gallery-corgi-card-status {
+  display: flex;
+  margin-top: 4px;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  padding: 2px;
+}

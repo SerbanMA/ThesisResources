@@ -1,0 +1,38 @@
+.market {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.market-price-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: orange;
+  margin-top: 2px;
+  border: solid 1px black;
+}
+
+.market-form {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../image/background.png');
+  border: solid 2px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  z-index: 20;
+}
+
+.market-form-shadow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  padding: 20px;
+}

@@ -1,0 +1,12 @@
+.battle-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.battle-card {
+  display: flex;
+  margin: 15px;
+  cursor: pointer;
+}

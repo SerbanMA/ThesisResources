@@ -1,0 +1,1 @@
+export const ENDURANCE = 86400000;

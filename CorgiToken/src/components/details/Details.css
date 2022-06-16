@@ -1,0 +1,116 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px;
+  border-radius: 15px;
+  background-color: rgba(255, 166, 0);
+  z-index: 10;
+}
+
+.MuiDialog-paper {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+Dialog {
+  border-radius: 20px !important;
+}
+
+.details-shadow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+}
+
+.details-atributes {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 15px 0px 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(255, 165, 0);
+}
+
+.details-atribute {
+  display: flex;
+  flex-grow: 1;
+  margin: 5px;
+  font-size: 16px;
+  cursor: default;
+}
+
+.details-actions {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.details-edit-action {
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+input {
+  width: 150px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  color: orange;
+  margin-left: 10px;
+}
+
+.input-confirmation {
+  margin: 15px;
+}
+
+Button {
+  display: flex !important;
+  flex-grow: 1 !important;
+  color: rgb(255, 165, 0) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  margin: 10px 5px !important;
+}
+
+Button:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgba(255, 166, 0, 0.7) !important;
+}
+
+.details-power-button {
+  color: black !important;
+  background-color: rgb(255, 165, 0) !important;
+}
+
+.details-send-confirmation {
+  display: flex;
+  background-image: url('../../image/background.png');
+
+  border: solid 2px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+}
+
+.details-form {
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../image/background.png');
+  border: solid 2px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  z-index: 20;
+}
+
+.details-form-shadow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 7px;
+  padding: 20px;
+}

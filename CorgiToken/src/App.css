@@ -1,0 +1,12 @@
+.side-separator {
+  width: 20vw;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+  min-height: 100vh;
+  overflow: hidden;
+}

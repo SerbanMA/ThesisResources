@@ -1,0 +1,68 @@
+.corgi-card {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+}
+
+.corgi-card-header {
+  display: flex;
+}
+
+.corgi-card-name {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.corgi-card-image {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.corgi-card-corgi-style {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+}
+
+.corgi-card-selected {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  z-index: 9999;
+}
+
+.corgi-card-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.corgi-card-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.corgi-card-ability {
+  display: flex;
+  flex: 1;
+  padding: 5px 5px 0 5px;
+}
+
+.corgi-card-damage {
+  justify-content: start;
+}
+
+.corgi-card-health {
+  justify-content: end;
+}
+
+.corgi-card-level {
+  display: flex;
+  padding-bottom: 5px;
+}

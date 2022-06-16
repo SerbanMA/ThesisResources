@@ -1,0 +1,33 @@
+.connect {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 8px rgba(255, 166, 0, 0.7);
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  margin: 25px 50px;
+  color: rgb(255, 165, 0);
+  font-size: calc(24px + 1vw);
+}
+
+.play {
+  color: rgb(255, 165, 0) !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  margin-bottom: 25px !important;
+}
+
+.play:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgba(255, 166, 0, 0.7) !important;
+}

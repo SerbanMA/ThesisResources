@@ -1,0 +1,48 @@
+.toolbar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+}
+
+.toolbar-elements {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.toolbar-rank {
+  display: flex;
+  justify-content: center;
+  color: #ffa500;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 32px;
+  border: solid;
+  border-width: 2px 0px 2px 0px;
+  border-radius: 15px;
+  width: 200px;
+}
+
+.tab {
+  display: flex;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: solid 4px #ffa600b3;
+  justify-content: center;
+  padding: 15px;
+  font-size: 28px;
+  color: orange;
+  cursor: pointer;
+  border-left: solid 1px #ffa600b3;
+  border-right: solid 1px #ffa600b3;
+}
+
+.gallery {
+  border-radius: 15px 0px 0 15px;
+}
+
+.market {
+  border-radius: 0px 15px 15px 0px;
+}
